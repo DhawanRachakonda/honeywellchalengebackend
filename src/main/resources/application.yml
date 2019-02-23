@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: stock-ticker-service
+  data:
+    mongodb:
+      host: ${mongohost:localhost}
+      port: ${mongoport:27017}
+      database: stockticker
+
+server:
+  port: ${port:8089}
